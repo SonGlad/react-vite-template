@@ -17,6 +17,7 @@ export default defineConfig({
   ],
   base: '/react-vite-template/',
   resolve: {
+    extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
     alias: {
       '@': path.resolve(__dirname, 'src'),
     },
